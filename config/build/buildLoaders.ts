@@ -22,9 +22,13 @@ export const buildLoaders = ({mode}: BuildOptions): ModuleOptions['rules'] => {
         use: 'ts-loader',
         exclude: /node_modules/,
     }
-
+    const imgsLoader = {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        type: "asset/resource",
+    }
     return [
         scssLoader,
-        tsLoader
+        tsLoader,
+        imgsLoader
     ]
 }

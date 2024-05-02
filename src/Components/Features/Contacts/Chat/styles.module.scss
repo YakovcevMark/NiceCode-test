@@ -1,0 +1,64 @@
+.contact {
+  display: flex;
+
+
+  flex-direction: row;
+
+  width: 366px;
+
+  height: 60px;
+
+  align-items: center;
+  span {
+    color: rgba(22, 23, 24, 1);
+    //font-family: SF Pro Display;
+    margin: auto 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+  }
+
+
+  input {
+    margin: auto 10px auto 14px;
+  }
+}
+.container{
+  margin-bottom: 10px;
+}
+.active {
+  background: rgb(239, 240, 241);
+  box-sizing: border-box;
+  border: 1px white solid;
+  border-radius: 3px;
+}
+
+.selected {
+
+}
+
+.avatar {
+  //text-align: center;
+  background-color: #fff;
+  background-position: 50%;
+  border-radius: 45px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 40px;
+  margin: auto 10px;
+  width: 40px;
+}
+.message {
+  box-sizing: border-box;
+  border-left: 3px rgba(65, 152, 197, 1) solid;
+}
+
+.additionalChatInfoIcon {
+  margin-left: auto;
+  margin-right: 20px;
+
+  width: 20px;
+  height: 20px;
+}

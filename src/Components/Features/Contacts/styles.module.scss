@@ -1,0 +1,8 @@
+.allChats {
+  display: flex;
+  flex-direction: column;
+  height: 835px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 366px;
+}

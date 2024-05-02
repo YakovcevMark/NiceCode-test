@@ -1,0 +1,77 @@
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 366px;
+  height: 60px;
+  align-items: center;
+}
+
+.searchBTNClassName {
+  margin-left: 10px;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.searchBTNClassNameInTypeMode {
+  // !important - bad practice, I know. Will fix later.
+
+  position: absolute;
+  left: 9px;
+
+  cursor: auto !important;
+
+  background-color: rgba(0, 0, 0, 0) !important;
+
+  &:hover {
+    img {
+      filter: none !important;
+
+    }
+  }
+
+}
+
+.searchInput {
+
+  width: 298px;
+
+  height: 40px;
+  border-radius: 90px;
+  border: 1px solid black;
+  margin-left: 10px;
+
+  &:focus {
+    border: 1px solid black;
+    outline: none;
+    padding-left: 30px;
+  }
+
+}
+
+.filterBTNClassName {
+  margin-right: 10px;
+
+  img {
+    width: 15.91px;
+    height: 12.63px;
+  }
+}
+
+.plusBTNInTypeMode {
+  margin-left: auto;
+  margin-right: 10px;
+
+  img {
+    rotate: 45deg;
+  }
+}
+
+.usersControlButtons {
+  margin-left: auto;
+  margin-right: 10px;
+}
