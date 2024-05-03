@@ -1,0 +1,24 @@
+.dropDownCN {
+  width: 230px;
+  height: 88px;
+}
+
+.buttonCN {
+  position: relative;
+  background-color: inherit;
+
+  .dropDownCN {
+
+    display: none;
+
+
+  }
+
+  &:hover {
+    .dropDownCN {
+      display: flex;
+      position: absolute;
+      right: 18px;
+    }
+  }
+}

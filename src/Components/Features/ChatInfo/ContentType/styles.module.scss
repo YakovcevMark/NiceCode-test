@@ -1,0 +1,49 @@
+.btnsBlock {
+  margin-left: 10px;
+}
+
+.active {
+  color: rgba(65, 152, 197, 1);
+}
+
+.action {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 20px;
+  align-items: center;
+
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 10px;
+
+  img {
+    margin-top: 5px;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 744px;
+  height: 26px;
+  margin: 10px 0;
+}
+
+.btnWithLine {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.line {
+  background: rgba(205, 205, 205, 1);
+  height: 18px;
+  margin: 0 10px;
+  width: 1px;
+}

@@ -1,7 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 940px;
+  width: 1140px;
+  margin: 0 auto;
+}
 
-.aSideContainer{
-    width: 1140px;
-    height: 940px;
-    margin:0 auto;
+.aSideContainer {
+  margin-right: 26px;
+}
+
+.main {
+  width: 744px;
 }
 

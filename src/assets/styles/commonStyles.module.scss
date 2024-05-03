@@ -1,0 +1,18 @@
+.avatarParent {
+  height: 40px;
+  margin: auto 10px;
+  width: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.noteImg {
+  width: 82px;
+  height: 46px;
+  border-radius: 4px;
+}

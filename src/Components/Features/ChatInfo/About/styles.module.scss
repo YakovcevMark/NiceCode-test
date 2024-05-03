@@ -1,0 +1,37 @@
+.container {
+  width: 744px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.avatarParent {
+  width: 90px;
+  height: 90px;
+  padding: 10px 14px 10px 10px;
+  margin: 0;
+}
+
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.additionalInfo {
+  margin-top: 6px;
+  width: 63px;
+  height: 14px;
+  gap: 8px;
+}
+
+.settingsButton {
+  margin: 13px 16px 0 auto;
+}
+
+.about {
+  margin-top: 15px;
+}

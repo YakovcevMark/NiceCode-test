@@ -1,11 +1,10 @@
 import './styles.module.scss'
-type PT = {
+import {memo} from "react";
 
-};
-const Header = ({}: PT) => {
+type PT = {};
+export const Header = memo(({}: PT) => {
     return (
         <header>
         </header>
     );
-};
-export default Header;
+});
