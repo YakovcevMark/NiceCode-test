@@ -25,7 +25,7 @@ export const contacts: Contact[] = [
     },
     {
         avatar: "https://s3-alpha-sig.figma.com/img/c044/5de2/79e699f381822f5ea9181dc5f3e7d756?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nvA1HxtmsbSHlyqAbWAqUPrtVguMbZEfpJ6vHeUhDY8ByjIFKcYBJADBUi~SaZM7e4qQDH~W4kE4D4mS679EK7cDWHnfblTRHso7dJMeFb9xXB9-Q0-eIOYfjTqViyTLZiL5oB~zOdkD05N9fdI3u7X-edGlu53i62IFdlsOuknHMEO~wjoxzeXhEnlIQyc4WlEFL-ZaifCrSGbwi9ctZfAjnRyIrTqoTNcXEcRd8bGyy7eyJaaMBKN85mW~X1Ce~9EfZ0wgFekQn~fJm2cGNk472UgNaPpJKp41ib4xX9Q8IV2w4S4jJZ~fC8B6dsaTNM~W0fGh0mxVLVhqyYWHJA__",
-        fullName: "Рожков Рожков Денис",
+        fullName: "Петров Рожков Денис",
         sex: "муж",
         age: 30
     },

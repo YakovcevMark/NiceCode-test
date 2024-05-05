@@ -1,9 +1,8 @@
 import {consultations} from './data'
 import {NoteBlock} from "../NoteBlock/NoteBlock";
-import s from './styles.module.scss'
+import {ConsultationsIcon} from "./ConsultationsIcon/ConsultationsIcon";
 
-const onlineMeetingIcon = require("./icons/camera.svg") as string;
-const liveMeetingIcon = require("./icons/peoples.svg") as string;
+
 type PT = {};
 
 export const AllConsultations = ({}: PT) => {
@@ -14,16 +13,9 @@ export const AllConsultations = ({}: PT) => {
                     (c, i) =>
                         <NoteBlock
                             iconNode={
-                                <div className={s.icon}>
-                                    <img
-                                        className={s.img}
-                                        src={
-                                            c.type === "Online консультация"
-                                                ? onlineMeetingIcon
-                                                : liveMeetingIcon
-                                        }
-                                        alt={`The Consultation Icon  ${i}`}/>
-                                </div>
+                                <ConsultationsIcon
+                                    id={i}
+                                    type={c.type}/>
                             }
                             mainContent={c.type}
                             secondContent={
