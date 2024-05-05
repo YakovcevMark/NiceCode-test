@@ -3,7 +3,7 @@ import s from './styles.module.scss'
 import commonStyles from '../../../../assets/styles/commonStyles.module.scss'
 import {Container} from "../../../Common/Container/Container";
 import Checkbox from "../../../Common/Checkbox/Checkbox";
-import {AdditionalChatInfo, contacts} from "../../../../App/data";
+import {AdditionalChatInfo, contacts} from "../data";
 import {SelectedChatIdContext} from "../../../../App/SelectedChatIdContext";
 
 const message = require("../../../../assets/imgs/message.svg") as string;

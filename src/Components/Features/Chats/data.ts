@@ -1,4 +1,4 @@
-const emptyAvatar = require("../assets/imgs/emptyAvatar.svg") as string;
+const emptyAvatar = require("../../../assets/imgs/emptyAvatar.svg") as string;
 type Chat = {
     contactId: number;
     additionalChatInfo?: {

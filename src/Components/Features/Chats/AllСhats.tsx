@@ -2,7 +2,7 @@ import {Chat} from "./Chat/Chat";
 import React, {memo, useCallback, useState} from "react";
 import {Input} from "./input/input";
 import {SelectSection} from "./SelectSection/SelectSection";
-import {chats, contacts} from "../../../App/data"
+import {chats, contacts} from "./data"
 import s from './styles.module.scss'
 
 

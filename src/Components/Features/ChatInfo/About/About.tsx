@@ -3,7 +3,7 @@ import {ButtonWithDropDown} from "../../../Common/Buttons/ButtonWithDropDown/But
 import {BasicDropDown} from "../../../Common/Buttons/ButtonWithDropDown/BasicDropDown/BasicDropDown";
 import React, {memo, useContext} from "react";
 import {SelectedChatIdContext} from "../../../../App/SelectedChatIdContext";
-import {chats, contacts} from '../../../../App/data'
+import {chats, contacts} from '../../Chats/data'
 import s from './styles.module.scss'
 import commonStyles from '../../../../assets/styles/commonStyles.module.scss'
 
